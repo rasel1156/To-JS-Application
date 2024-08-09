@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <script async src="app.js"></script>
+</head>
+<body>
+    <section class="app-title text-center">
+        <h1>To Do Application</h1>
+    </section>
+    <section class="add-tasks">
+        <div class="add-task-area">
+            <input type="text" id="input" class="task-input" placeholder="Type your task here">
+            <input type="submit" id="submit" class="task-submit">
+        </div>
+    </section>
+    
+    <section class="tasks-list-section">
+        <div class="tasks-list-area">
+            <div class="left-tasks">
+                <h2>Pending Tasks</h2>
+                <div class="tasks-list">
+                    <ol id="pending" class="checkboxlist">
+                        
+                    </ol>
+                </div>
+            </div>
+            <div class="right-tasks">
+                <h2>Completed Tasks</h2>
+                <div class="tasks-list">
+                    <ol id="completed" class="crossboxlist">
+                       
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="congratulation">
+    <h2>Congratulation!</h2>
+    <p>You have successfully complete all the tasks.</p>
+</section>
+</body>
+</html>
